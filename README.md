@@ -1,6 +1,9 @@
 # ExpressJS.Auth.MongoDB.API
 
+You need MongoDB installed to run project successfully
+
 ## Start Project
+
 ### Run by npm script
 npm run prod
 npm run dev
