@@ -39,7 +39,7 @@ content-type: application/json
 ### [GET] Check Access Token
 # Check if token is verified via veriftToken middleware
 
-POST http://localhost:3001/api/auth/checkAccessToken
+GET http://localhost:3001/api/auth/checkAccessToken
 content-type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Nzk4MDMwYmU0MDY5ZThmNGU2NDk0MDciLCJlbWFpbCI6InRlc3QxQHRlc3QuY29tIiwiaWF0IjoxNzM4MDE1NjQ1LCJleHAiOjE3MzgwMTY1NDV9.kSJ_-WClDz1M-mcrP5btX_rWsj3TnPfPVc9z8OVM5bg
 
